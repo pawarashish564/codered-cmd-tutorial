@@ -1,9 +1,24 @@
-# Code Red CMS Tutorial 
-<!--  -->
-code red cms is a website generator for python
+<h1 align="center">
+  <!-- <img src=".github/logo.png" width="80"  -->
+     <!-- height="80"/><br> -->
+Code Red CMS Tutorial
+</h1>
 
-<!-- coderedcms start blog -->
-steps - 
+<p align="center"> CodeRed's Wagtail extensions includes everything out-of-the-box to quickly build beautiful </p>
+<!-- <p align="center"> 
+  <!-- <img src="http://hits.dwyl.com/pawarashish564/Interactive-Fiction-Py.svg"> -->
+  <!-- <img src="https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white"> -->
+  <!-- <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white"> -->
+  <!-- <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"> --> -->
+</p>
+
+<br>
+<br>
+
+### ⚙️ Steps
+
+
+```sh
 coderedcms start blog
 
 python manage.py migrate
@@ -11,12 +26,8 @@ python manage.py migrate
 python manage.py createsuperuser
 
 python manage.py runserver
+```
 
-URL -
+## 📄 Bug reports, feature requests, etc
 
-http://127.0.0.1:8000/
-http://127.0.0.1:8000/admin
-
-
-<!-- site logo and site name -->
-admin page settings
+This is an ongoing project and I welcome contributions and suggestions! Feel free to submit a PR.
