@@ -4,13 +4,18 @@
 Code Red CMS Tutorial
 </h1>
 
-<p align="center"> CodeRed's Wagtail extensions includes everything out-of-the-box to quickly build beautiful </p>
-<!-- <p align="center"> 
-   <img src="http://hits.dwyl.com/pawarashish564/Interactive-Fiction-Py.svg"> -->
-  <!-- <img src="https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white"> -->
-  <!-- <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white"> -->
-  <!-- <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"> --> 
-  <!-- --> 
+<p align="center">
+CoderedCMS is professional WordPress alternative for building modern marketing websites. Based on Python, Django, Wagtail, and Bootstrap 4.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/pypi/pyversions/coderedcms">
+  <!-- | -->
+  <img src="https://img.shields.io/pypi/djversions/coderedcms">
+  <!-- | -->
+
+</p>
+
 </p>
 
 <br>
@@ -20,12 +25,19 @@ Code Red CMS Tutorial
 
 
 ```sh
+# install coderedcms
+pip install -r requirements.txt 
+
+# setup 1
 coderedcms start blog
 
+# setup2
 python manage.py migrate
 
+# create a superuser for managing the blog
 python manage.py createsuperuser
 
+# running the server.
 python manage.py runserver
 ```
 
